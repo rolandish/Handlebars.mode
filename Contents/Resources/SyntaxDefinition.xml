@@ -29,7 +29,7 @@
 					<regex>{{!(.*?)}}</regex>
 				</keywords>
 				<keywords id="Handlebars Partials" useforautocomplete="no" scope="keyword.type">
-					<regex>({{)[>&lt;](.*?)(}})|({{)[>&lt;\S\s\w\W\D\d\t\n\r]*?(}})</regex>
+					<regex>{{[>&lt;\S\s\w\W\D\d\t\n\r]*?(}})|(}}\n\r)</regex>
 				</keywords>
 				<keywords id="Handlebars Delimiters" useforautocomplete="no" scope="markup.inline.cdata">
 					<regex>{{=(.*?)=}}</regex>
