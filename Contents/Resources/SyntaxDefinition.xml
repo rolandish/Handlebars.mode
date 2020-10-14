@@ -43,14 +43,12 @@
 				<keywords id="Handlebars Frames" useforautocomplete="no" scope="markup.tag.attribute.value">
 					<regex>{{@(.*?)}}</regex>
 				</keywords>
-				<!--
 				<keywords id="Double Quoted Strings" type="string" useforautocomplete="no" scope="string.double">
-					<regex>(".*?")</regex>
+					<regex>(".*")</regex>
 				</keywords>
 				<keywords id="Single Quoted Strings" type="string" useforautocomplete="no" scope="string.single">
-					<regex>('.*?')</regex>
+					<regex>('.*')</regex>
 				</keywords>
-				-->
 			</state>
 			<!-- This is great in theory, but problematic in practice - a valid if/else which could appear as an unclosed HTML tag destroys HTML code folding -->
 			<!-- Possible alternative: disable HTML folding, enable the below -->
